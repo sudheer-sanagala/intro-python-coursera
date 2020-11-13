@@ -17,8 +17,11 @@ height = 3.5
 area = (base*height)/2
 print("The area of triangle is: "+ str(area)) # str() will convert the value from integer to string value
 
-#
+# average size of the files
 total = 2048 + 4357 + 97658 + 125 + 8
 files = 5
 average = total / files
 print("The average size is :" + str(average))
+
+# multiplication
+print("2 + 2 = " + str(2 + 2))

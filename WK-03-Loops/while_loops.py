@@ -72,3 +72,15 @@ def multiplication_table(number,limit):
 		multiplier += 1
 
 multiplication_table(3,10)
+
+# break statement
+i = 0
+while True:
+	print("Iteration number "+ str(i))
+	i = i + 1
+	if i == 10:
+		break
+
+print("Final value :" +str(i))
+
+

@@ -13,13 +13,12 @@ print(my_string[0:5]) # part of the string
 print(my_string[:7])  # print till end of string
 print(my_string[:])
 print(my_string[-1:])
-print(my_string[-5:]) # start from -5
+print(my_string[-5:]) # start from -5 and go right (forward)
+print(my_string[:-5]) # start from -5 and go left (backwards)
 print(my_string[-7:]) # start from -7
 print(my_string[::2]) # print every 2nd character from string
 
 print(my_string[::-1]) # reverse a string
-
-
 print("--------------------")
 
 for x in my_string:
